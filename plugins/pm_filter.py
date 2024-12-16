@@ -2631,6 +2631,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
             ]
             for file in files
         ]
+        
         btn.insert(0, 
             [
                 InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
